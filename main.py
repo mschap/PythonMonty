@@ -40,6 +40,6 @@ number_of_trials = input("Enter the number of trials for Monty Hall simulation: 
 # Run the simulation
 switch_wins, stay_wins = simulate_monty_hall(int(number_of_trials))
 
-# print results
+# Print results
 print(f"Switch wins: {switch_wins} out of {number_of_trials}")
 print(f"Stay wins: {stay_wins} out of {number_of_trials}")
